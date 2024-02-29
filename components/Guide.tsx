@@ -35,13 +35,13 @@ function Guide() {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">53 min</p>
+                <p className="bold-16 text-green-50">3 hr</p>
               </div>
-              <p className="bold-20 mt-2">mazandaran</p>
+              <p className="bold-20 mt-2">Tehran</p>
             </div>
             <div className="flex w-full flex-col">
               <p className="regular-16 text-gray-20">Start track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">noshar</h4>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Mazandaran</h4>
             </div>
           </div>
         </div>
