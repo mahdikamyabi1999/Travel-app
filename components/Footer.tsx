@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
+import FooterColumn from "./FooterColumn";
 function Footer() {
   return (
     <footer className="flexCenter mb-24">
@@ -58,17 +59,5 @@ function Footer() {
     </footer>
   );
 }
-type FoteerColumnProps = {
-  title: string;
-  children: React.ReactNode;
-};
-const FooterColumn = ({ title, children }): FoteerColumnProps => {
-  return (
-    <div className="flex flex-col gap-5">
-      <h4 className="bold-18 whitespace-nowrap">{title}</h4>
-      {children}
-    </div>
-  );
-};
 
 export default Footer;
