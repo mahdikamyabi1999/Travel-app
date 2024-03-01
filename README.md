@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">fully responsive web app with Next js and Typescript</h3>
+<h3 align="left">fully responsive web app with Next js and Typescript</h3>
 
 ###
 
